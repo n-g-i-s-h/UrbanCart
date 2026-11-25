@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Services from './pages/Services';
+import Upload from './pages/Upload';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -26,6 +27,7 @@ function App() {
         <Link to="/about">About</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/services">Services</Link>
+        <Link to="/upload">Upload</Link>
 
       </nav>
 
@@ -36,6 +38,7 @@ function App() {
         <Route path='/contact' element={<Contact/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/services' element={<Services/>} />
+        <Route path='/upload' element={<Upload/>} />
 
 
 
