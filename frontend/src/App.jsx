@@ -10,9 +10,12 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Services from './pages/Services';
 import Upload from './pages/Upload';
+//Payment
+import Payment from './pages/Payment';
 
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {
@@ -28,6 +31,7 @@ function App() {
         <Link to="/contact">Contact</Link>
         <Link to="/services">Services</Link>
         <Link to="/upload">Upload</Link>
+        <Link to="/payment" className='btn btn-success'>Pay Now</Link>
 
       </nav>
 
@@ -39,6 +43,7 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/services' element={<Services/>} />
         <Route path='/upload' element={<Upload/>} />
+        <Route path='/payment' element={<Payment/>} />
 
 
 
